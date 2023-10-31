@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import os
 
 
-path = 'D:\Masterarbeit\Daten\Github\AQA example'
+path = 'Data examples\AQA example'
 collimator = 'fixed'  #Wähle 'fixed', 'Iris' oder 'MLC'
 files = os.listdir(path)
 n = len(files)
