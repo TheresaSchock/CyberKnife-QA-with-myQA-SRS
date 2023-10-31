@@ -11,7 +11,7 @@ from helper_final import file_einlesen, get_nearest, interpolate, Flatness_sieme
 import os
 
 #IrisQA Daten sollten aus 12 Files bestehen, eines pro Kollimatorgröße, beginnend mit 5mm, endend mit 60mm
-path = 'D:/Masterarbeit/Daten/Github/IrisQA example'
+path = 'Data examples/IrisQA example'
 files = os.listdir(path)
 n = len(files)
 
