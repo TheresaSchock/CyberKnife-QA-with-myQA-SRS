@@ -17,7 +17,7 @@ from helper_final import (file_einlesen, get_nearest, interpolate, circle_finder
 ####################
 #  Daten Einlesen  #
 ####################
-path = 'D:/Masterarbeit/Daten/MLC QA/Integral 07_08_2023 14_32_37.05.opg'  #path to file including filename
+path = 'Data examples/MLC QA example/Integral 24_07_2023 14_52_04.88.opg'  #path to file including filename
 SAD = 796.8  #measured SAD
 
 data, x, y, _ = file_einlesen(path)
